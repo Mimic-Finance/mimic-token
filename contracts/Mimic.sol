@@ -3,8 +3,8 @@ pragma solidity 0.7.6;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract JUSD is ERC20 {
-    constructor() ERC20("Jack USD Token", "JUSD") {
+contract Mimic is ERC20 {
+    constructor() ERC20("Mimic Token", "MIM") {
          _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 }

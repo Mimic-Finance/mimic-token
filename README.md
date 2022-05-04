@@ -7,5 +7,5 @@ truffle compile && truffle migrate --reset --network=kovan
 
 - Verify Token Contracts
 ```
-npx truffle run verify JUSD MIM cJUSD --network=kovan  
+npx truffle run verify JUSD Mimic cJUSD --network=kovan  
 ```
